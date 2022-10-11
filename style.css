@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 18px;
+}
+
+.conteiner {
+  margin: auto;
+  max-width: 80%;
+}
+
+.header {
+  font-size: 40px;
+  margin-top: 5px;
+  padding: 5px;
+  background-color: rgb(191, 136, 243);
+  text-align: center;
+}
+
+.conteiner-dp {
+  border-left: solid 3px rgb(191, 136, 243);
+  border-right: solid 3px rgb(191, 136, 243);
+  border-bottom: solid 3px rgb(191, 136, 243);
+  line-height: 30px;
+}
+
+.title {
+  display: flex;
+  font-size: 24px;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: rgb(191, 136, 243);
+}
+
+.dp p {
+  padding: 10px;
+}
+
+.dp span {
+  margin-left: 15px;
+}
+
+input {
+  padding: 3px;
+  margin-right: 10px;
+}
+
+#main {
+  padding-right: 200px;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  flex-wrap: wrap;
+  
+}
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px 5px 20px 5px;
+}
+
+#taxa span {
+  margin-left: 15px;
+}
+
+.one {
+  padding: 10px;
+  padding-bottom: 20px;
+}
+.two {
+  padding: 10px;
+  padding-bottom: 15px;
+}
+.tree {
+  padding: 10px;
+  padding-bottom: 15px;
+}
+.four {
+  padding: 10px;
+  padding-bottom: 15px;
+}
+.five {
+  padding: 10px;
+  padding-bottom: 15px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  height: 100px;
+  margin-top: 40px;
+  margin-right: 40px;
+}
+.footer a {
+  font-size: 25px;
+  color: rgb(80, 7, 148);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+img {
+  width: 600px;
+  height: 300px;
+}
+
+.conteiner-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.radio-desc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.img-unhas {
+  width: 3px;
+  height: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.coluns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+  padding: 10px;
+}
+
+.harlux {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.last-linha {
+  display: grid;
+  grid-template-rows:1fr ;
+}
+
+.box1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;  
+  padding: 10px;
+}
+
+.box2 {
+  display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.box3 {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;  
+  padding: 10px;
+}
+
+.text-area {
+  display:  flex;
+  justify-content: center;
+  padding: 50px;
+
+}

@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ficha de avaliação</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="conteiner">
+      <header>
+        <div class="header">FICHA DE AVALIAÇÃO DE PODOLOGIA</div>
+      </header>
+      <section>
+        <div class="conteiner-dp">
+          <div class="title">
+            <div>DADOS PESSOAIS:</div>
+            <form action="" method="get">
+            <div>Data: <input type="date" /></div>
+          </div>
+          <div class="dp">
+            <p>Nome: <input type="text" id="main" /></p>
+            <p>Endereço: <input type="text" id="main" /></p>
+
+            <p>
+              Bairro: <input type="text" />Cidade: <input type="text" /> Estado:
+              <input type="text" />
+            </p>
+
+            <p>
+              CEP: <input type="text" /> Telefone: <input type="tel" /> Celular:
+              <input type="tel" />
+            </p>
+            <p>Email: <input type="email" id="main" /></p>
+
+            <p>
+              Data de Nasc: <input type="date" /> Idade:
+              <input type="number" id="peq" /> Sexo:
+              <input type="radio" name="sexo" value="F" />Fem
+              <input type="radio" name="sexo" value="M" />Masc
+            </p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="conteiner-dp">
+          <div class="title">DADOS GERAIS</div>
+          <div class="dp">
+            <p>Queixa principal: <input type="text" id="main" /></p>
+            <p>
+              Costuma ir ao Podologo?
+              <input type="radio" name="ir ao Podologo" value="SIM" />SIM
+              <input type="radio" name="ir ao Podologo" value="NÃO" /> NÃO
+              <span> Qual frequencia?<input type="text" /></span>
+            </p>
+            <p>
+              Faz uso de algum medicamento? Qual?
+              <input type="text" id="main" />
+            </p>
+            <p>
+              Alergico?
+              <input type="radio" name="Alergico" value="SIM" />SIM
+              <input type="radio" name="Alergico" value="NÃO" /> NÃO
+              <span>Quais substâncias? <input type="text" /></span>
+            </p>
+            <p>
+              Posisão de trabalho?
+              <input type="radio" name="Posisão de trabalho" value="Em pé" /> Em
+              pé
+              <input type="radio" name="Posisão de trabalho" value="Sentado" />
+              Sentado
+              <input type="radio" name="Posisão de trabalho" value="Andando" />
+              Andando
+              <span>Duração: <input type="time" /></span>
+            </p>
+            <p>Passa a maior parte do tempo? <input type="text" /></p>
+            <p>
+              N° do Calçado? <input type="text" /> Tipo de calçado de uso
+              diario?
+              <input type="text" />
+            </p>
+            <p>
+              Faz uso de palmilha?
+              <input type="radio" name="palmilha" value="SIM" />SIM
+              <input type="radio" name="palmilha" value="NÃO" /> NÃO
+              <span>
+                <input
+                  type="radio"
+                  name="tipo palmilha"
+                  value="Ortopêdica"
+                />Ortopêdica
+                <input
+                  type="radio"
+                  name="tipo palmilha"
+                  value="Descanso"
+                />Descanso</span
+              >
+            </p>
+            <p>
+              É fumante?
+              <input type="radio" name="fumante" value="SIM" />SIM
+              <input type="radio" name="fumante" value="NÃO" /> NÃO
+            </p>
+            <p>
+              Ciclo menstrual regular?
+              <input type="radio" name="Ciclo menstrual" value="SIM" />SIM
+              <input type="radio" name="Ciclo menstrual" value="NÃO" /> NÃO
+              <span>DUM: <input type="date" /></span>
+            </p>
+            <p>
+              Está gestante?
+              <input type="radio" name="gestante" value="SIM" />SIM
+              <input type="radio" name="gestante" value="NÃO" /> NÃO
+              <span
+                >Está amamentando
+                <input type="radio" name="amamentando" value="SIM" />SIM
+                <input type="radio" name="amamentando" value="NÃO" /> NÃO</span
+              >
+            </p>
+            <p>
+              Pratica atividade fisica?
+              <input type="radio" name="atividade fisica" value="SIM" />SIM
+              <input type="radio" name="atividade fisica" value="NÃO" /> NÃO
+              <span>Frequência? <input type="text" /></span>
+              <span>Qual esporte e tipo de calçado? <input type="text" /></span>
+            </p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="conteiner-dp">
+          <div class="conteiner-list">
+            <div class="title">DADOS CLÍNICOS</div>
+            <div class="list">
+              <div class="one">
+                <p><input type="checkbox" />Gestante</p>
+                <p><input type="checkbox" />Osteoporose</p>
+                <p><input type="checkbox" />Cardiopatia</p>
+                <p><input type="checkbox" />Marca Passo</p>
+              </div>
+              <div class="two">
+                <p><input type="checkbox" />Hipertiroídismo</p>
+                <p><input type="checkbox" />Hipotiroídismo</p>
+                <p><input type="checkbox" />Hipertensão</p>
+                <p><input type="checkbox" />Hipotensão</p>
+              </div>
+              <div class="tree">
+                <p><input type="checkbox" />Renal</p>
+                <p><input type="checkbox" />Neuropatia</p>
+                <p><input type="checkbox" />Reumatismo</p>
+                <p>
+                  <input type="checkbox" />Alterações ou Comprometimento
+                  Vasculares
+                </p>
+              </div>
+              <div class="four">
+                <p><input type="checkbox" />Epilepsia</p>
+                <p><input type="checkbox" />Hepatite</p>
+                <p><input type="checkbox" />Hanseniase</p>
+                <p></p>
+              </div>
+
+              <div class="five">
+                <p><input type="checkbox" />Quimioterapia / Radioterapia</p>
+                <p><input type="checkbox" />Antecedentes Oncológicos</p>
+                <p><input type="checkbox" />Cirrurgia MMII</p>
+              </div>
+
+              <div class="footer-list">
+                <p id="taxa">
+                  Diabetes:
+                  <input type="radio" name="Diabetes" value="SIM" />SIM
+                  <input type="radio" name="Diabetes" value="NÃO" />NÃO
+                  <span>Taxa Glicêmica: <input type="text" /></span>
+                  <span>Data da última Verificação: <input type="date" /></span>
+                </p>
+                <p>
+                  Insulina:
+                  <input type="radio" name="Insulina" value="SIM" />SIM
+                  <input type="radio" name="Insulina" value="NÃO" />NÃO
+                  <input
+                    type="radio"
+                    name="tipo de aplicação"
+                    value="Injetável"
+                  />Injetável
+                  <input
+                    type="radio"
+                    name="tipo de aplicação"
+                    value="Via Oral"
+                  />Via Oral
+                </p>
+                <p>
+                  Dieta Hídrica:
+                  <input type="radio" name="Dieta Hídrica" value="SIM" />SIM
+                  <input type="radio" name="Dieta Hídrica" value="NÃO" />NÃO
+                  <input
+                    type="radio"
+                    name="Dieta Hídrica"
+                    value="Dieta alimentar"
+                  />Dieta alimentar
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="conteiner-dp">
+          <div class="title">ALTERAÇÕES E LESÕES DOS PÊS</div>
+          <div class="dp">
+            <p>Tipo de pisada</p>
+            <div class="conteiner-img">
+              <div class="img">
+                <img src="img/pisadas.jpg" alt="" />
+                <div class="radio-desc">
+                  <input
+                    type="radio"
+                    name="Tipo de pisada"
+                    value="Calvo / Supinado"
+                  />Calvo / Supinado
+                  <input
+                    type="radio"
+                    name="Tipo de pisada"
+                    value="Normal / Neutro"
+                  />Normal / Neutro
+                  <input
+                    type="radio"
+                    name="Tipo de pisada"
+                    value="Plano / Pronado"
+                  />Plano / Pronado
+                </div>
+              </div>
+            </div>
+            <div>
+              <p>Dedos:</p>
+              <p>
+                Flexivel: <input type="radio" name="Flexivel" value="D" />D
+                <input type="radio" name="Flexivel" value="E" /> E
+              </p>
+              <p>
+                Rígido: <input type="radio" name="Rígido" value="D" />D
+                <input type="radio" name="Rígido" value="E" /> E
+              </p>
+              <p>
+                Espalmado: <input type="radio" name="Espalmado" value="D" />D
+                <input type="radio" name="Espalmado" value="E" /> E
+              </p>
+              <p>
+                Martelo: <input type="radio" name="Martelo" value="D" />D
+                <input type="radio" name="Martelo" value="E" /> E
+              </p>
+              <p>
+                Queda de Metatarso:
+                <input type="radio" name="Queda de Metatarso:" value="D" />D
+                <input type="radio" name="Queda de Metatarso:" value="E" /> E
+              </p>
+            
+          
+            <p>
+              Tipo de marcha: <input type="radio" name="Tipo de marcha" value="normal">Normal
+              <input type="radio" name="Tipo de marcha" value="patológico">Patológico
+              <span> Qual?<input type="text"></span>
+            </p>
+            <p>
+              Joelho: <input type="radio" name="joelho" value="normal">Normal
+              <input type="radio" name="joelho" value="vaigo">Vaigo
+              <input type="radio" name="joelho" value="varo">Varo
+              
+            </p>
+            <p>
+              Articulação: <input type="radio" name="Articulação" value="retrope">Retropé
+              <input type="radio" name="Articulação" value="Chopart">Chopart
+              <input type="radio" name="Articulação" value="Mediope">Mediopé
+              <input type="radio" name="Articulação" value="Lisfranc">Lisfranc
+              <input type="radio" name="Articulação" value="Antepé">Antepé
+              
+            </p>
+            <p>
+              Sensibilidade a dor: <input type="radio" name="Sensibilidade a dor" value="Diminuida">Diminuida
+              <input type="radio" name="Sensibilidade a dor" value="Normal">Normal
+              <input type="radio" name="Sensibilidade a dor" value="Aumentada">Aumentada
+              
+              
+            </p>
+            <p>
+              Teste de Diapazão: <input type="text">
+              <span>Teste de monofilamento: <input type="text"></span>
+              <span>Pulso: <input type="text"></span>
+                   
+            </p>
+          </div>
+
+          <div class="conteiner-dp">
+            <div class="title">FORMATO DAS UNHAS:</div> 
+          <div class="img-unhas">
+            
+          </div>
+
+          <div class="artelhos">
+            <div class="harlux">
+              <div>
+            Artelhos: 
+              <span> <strong>PD:</strong>  <input type="radio" name="harlux-dir" value="harlux-dir">Hárlux
+                <input type="radio" name="PD" value="PD"> 2°
+                <input type="radio" name="PD" value="PD"> 3°
+                <input type="radio" name="PD" value="PD"> 4°
+                <input type="radio" name="PD" value="PD"> 5°
+              </span> </div>
+             <div> <span><strong>PE:</strong> <input type="radio" name="harlux-esq" value="harlux-esq">Hárlux
+                <input type="radio" name="PE" value="PE"> 2°
+                <input type="radio" name="PE" value="PE"> 3°
+                <input type="radio" name="PE" value="PE"> 4°
+                <input type="radio" name="PE" value="PE"> 5°
+              </span> 
+            </div>
+          </div>
+            <div class="coluns">
+          <div class="format-1">
+            
+              <input type="checkbox"> Oriencoatrofa <br>
+              <input type="checkbox"> Onococriptese <br>
+              <div class="last-linha"> Outras alterações Unguean: <input type="text"></div>
+            </div>
+         
+          <div class="format-2">
+            <input type="checkbox"> Onicorrexe <br>
+              <input type="checkbox"> Gramuioma
+          </div>
+          <div class="format-3">
+            <input type="checkbox"> Onicogrifose<br>
+              <input type="checkbox"> Onicolse
+          </div>
+          <div class="format-4">
+            <input type="checkbox"> Onicofose<br>
+              <input type="checkbox"> Psoriase ungueal
+          </div>
+          <div class="format-5">
+            <input type="checkbox"> Onicomicose
+          </div>
+        </div> 
+          </div>
+
+          </div>
+
+          <div class="conteiner-dp">
+            <div class="title"> ALERAÇÕES E LESÕES:</div>
+            <div class="box1">
+            <div>    <input type="checkbox">Brumidrose<br>
+               <input type="checkbox">Hidrose<br>
+                <input type="checkbox">Desudrose</div>
+            <div>   <input type="checkbox">Isquemia<br>
+               <input type="checkbox">Mal Perfurante<br>
+                <input type="checkbox">Edemia</div>
+           <div>   <input type="checkbox">Tinea<br>
+               <input type="checkbox">Psoniase<br>
+               <input type="checkbox">Tungiase </div>
+            <div>  <input type="checkbox">Fissuras </div>
+            </div>
+            <div class="box2">
+            <p>  Perfusão: <strong>PD:</strong> <input type="radio" name="perfusao-dir" value="perfusao-dir"> Normal
+              <input type="radio" name="perfusao-dir" value="perfusao-dir"> Pálido
+              <input type="radio" name="perfusao-dir" value="perfusao-dir"> Cianótico</p>
+
+           <span> Perfusão: <strong>PE:</strong> <input type="radio" name="perfusao-esq" value="perfusao-esq"> Normal
+              <input type="radio" name="perfusao-esq" value="perfusao-esq"> Pálido
+              <input type="radio" name="perfusao-esq" value="perfusao-esq"> Cianótico   </span>          
+            </div>
+
+            <div class="box3">
+              
+                <div>
+              <input type="checkbox"> Vemuga Planar <br>
+              <input type="checkbox"> Calo Dorsal <br>
+              Já teve ou apresenta Erisipela? <input type="radio" name="erisipela" value="erisipela"> SIM
+              <input type="radio" name="erisipela" value="erisipela"> NÃO<br>
+              Outras alterações na pele: <input type="text"></div>
+
+            <div>  <input type="checkbox"> Queratose <br>
+              <input type="checkbox"> Calo Plantar</div>
+             <div> <input type="checkbox"> Hiperqueratose <br>
+              <input type="checkbox"> Calo Interdigital</div>
+          
+
+          </div>
+
+
+          <div class="conteiner-dp">
+        
+            <div class="title"> OUTROS COMENTARIOS E OBSERVAÇÕES:</div>
+            <div class="text-area">
+              <textarea name="" id="" cols="100" rows="20"></textarea>
+
+            </div>
+          </div>
+            
+          </form>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
